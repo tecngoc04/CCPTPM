@@ -1,0 +1,94 @@
+/* banner */
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+#banner {
+    margin-top: 88px;
+    color: white;
+
+    .img {
+        position: relative;
+        height: 450px;
+
+        img {
+            filter: brightness(70%);
+            height: 305px;
+
+            margin-bottom: 60px;
+        }
+    }
+
+    .box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        .tieude {
+            border: 2px solid white;
+            background-color: white;
+            height: 60px;
+            width: 2px;
+            margin: 0 auto;
+        }
+    }
+}
+
+#content {
+    padding: 0rem 10rem;
+    font-family: "Montserrat";
+    
+    .sub__content {
+        border: 2px solid gray;
+        margin-bottom: 30px;
+        position: relative;
+        display: flex;
+
+        .image {
+            img {
+                filter: brightness(70%);
+                height: 340px;
+                width: 500px;
+            }
+        }
+
+        .detail {
+            margin: 0px 20px;
+            h4 {
+                font-family: "Montserrat-Bold";
+                font-size: 40px;
+            }
+            .describe {
+                margin-top: -15px;
+                font-size: 20px;
+            }
+            button{
+                background-color: transparent;
+                color: black;
+                border: 2px solid black;
+                padding: 10px 25px;
+                margin-right: 10px;
+            }
+            button:hover{
+                background-color: black;
+                color: white;
+            }
+            .sup__detail {
+                display: flex;
+                align-items: center;
+                .infor {
+                    margin-left: 10px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .topic {
+                    font-size: 20px;
+                    font-family: "Montserrat-Bold";
+                }
+            }
+
+        }
+    }
+
+}
